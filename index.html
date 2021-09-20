@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Alexandr Loktysh CV</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="./styles/style.css" rel="stylesheet" type="text/css">
+  <script src="./scripts/sh_main.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="./styles/sh_style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="row">
+      <h1>There is my CV</h1>
+    </header>
+    <img class="avatar" src="images/avatar.jpg" alt="It's me!" width="180">
+    <h2>Several things about me</h2>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code">Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts" tabindex="-1">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="skills row" id="about">
+      <ul class="col-sm">
+        <li>
+          <h3>About me below:</h3>
+        </li>
+        <li>Name: Alexander Loktysh</li>
+        <li>About me: I want to pay bills.</li>
+        <li>It skills:
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+        </li>
+        <li>Work experience: engineering design.</li>
+        <li>Education: BNTU engideering specialists.</li>
+        <li>English language: A-level</li>
+      </ul>
+      <div class="projects col-sm" id="projects">
+        <h3>My pet-projects:</h3>
+        <p> Wildlife site</p>
+        <a href="https://rolling-scopes-school.github.io/loktysh-JSFE2021Q1/wildlife/" target="_blank"><img
+            src="https://media.istockphoto.com/photos/fox-in-the-meadow-picture-id485364370?b=1&k=20&m=485364370&s=170667a&w=0&h=lTBM3-Fi_Z2mKRkIUcxGRmn8FSol6GXCgFDd25AQq2c="
+            alt="Wildlife"></a>
+        <p>Piano</p>
+        <a href="https://rolling-scopes-school.github.io/loktysh-JSFE2021Q1/virtual-piano" target="_blank"><img
+            src="https://image.freepik.com/free-photo/close-up-of-piano-keys_1232-1774.jpg" alt="Piano"></a>
+        <p>Online photo filter</p>
+        <a href="https://rolling-scopes-school.github.io/loktysh-JSFE2021Q1/photo-filter/" target="_blank"><img
+            src="https://imgv3.fotor.com/images/videoImage/Online-photo-editor.png" alt=""></a>
+      </div>
+      <aside class="col-xl-5" id="code">
+        <details open>
+          <summary>
+            <h4>Code examples:</h4>
+          </summary>
+          <a href="https://github.com/Loktysh">Github</a>
+          <pre><code class="sh_javascript">function Hi() 
+{return console.log('Hi')}</code></pre>
+        </details>
+      </aside>
+    </div>
+    <footer class="row" id="contacts">
+      <section>
+        <h3>My contact</h3>
+        <ul>
+          <li><a href="https://t.me/DrowStyle">via Telegram</a></li>
+          <li><a href="https://github.com/Loktysh">My Github</a></li>
+        </ul>
+      </section>
+    </footer>
+  </div>
+  <script>hljs.highlightAll();</script>
+  <script>alert('Пожалуйста, если у вас возникнут вопросы, то свяжитесь со мной по ссылке ниже, а ещё лучше также в rsapp сделайте вам видимым при оценке, спасибо!');
+    console.log(`Ваша оценка - 160 баллов 
+Отзыв по пунктам ТЗ:
+Выполненные пункты:
+1) вёрстка валидная. Проверить валидность вёрстки: https://validator.w3.org/ 
+
+2) вёрстка семантическая. В коде страницы присутствуют семантические теги HTML5, например, article, aside, figure, figcaption, footer, header, main, nav, section, используются заголовки h1-h6. 2 балла за каждый уникальный семантический тег HTML5 и за каждый уникальный заголовок h1-h6, но не больше 20 баллов. Заголовок h1 может быть только один 
+
+3) для оформления СV используются css-стили. 1 балл за каждый стилизованный элемент, но не больше 10 баллов 
+
+4) контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы 
+
+5) вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется 
+
+6) есть адаптивное бургер-меню. Ссылки в пунктах меню ведут на основные разделы CV. При кликах по пунктам меню реализована плавная прокрутка по якорям. При уменьшении ширины экрана меню становится адаптивным. 
+
+7) на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены, у изображения есть атрибут alt (может быть пустым) 
+
+8) контакты для связи и перечень навыков оформлены в виде списка ul > li 
+
+9) CV содержит контакты, краткую информацию о себе, навыки, образование, уровень английского 
+
+10) CV содержит пример вашего кода (например, решение задачи с сайта codewars) с подсветкой кода 
+
+11) CV содержит изображения-ссылки на выполненные вами проекты. При клике по изображению страница проекта открывается в новой вкладке. У каждого проекта есть название, небольшое описание, указан перечень используемых технологий 
+
+12) CV выполнено на английском языке 
+
+13) выполнены требования к репозиторию: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, указана дата дедлайна, выполнена самооценка (самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт) 
+
+14) есть видеорезюме автора CV на английском языке. Видеорезюме встраивается в страницу CV как видео, а не в виде кнопки или ссылки. Продолжительность видео 3-5 минут (±15 секунд). В описание видео на YouTube добавлена ссылка на его транскрипцию на английском языке (например, в документе Google Docs). 
+
+15) дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию 
+
+`)
+  </script>
+
+</body>
+
+</html>

@@ -1,53 +1,106 @@
 html {
-    font-size: 10px;
+    font-size: 13px;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
-  
-div {
-    width: 500px;
-    margin: auto;
-    border: 5px solid #0f4c81;
-}
-  
 h2 {
     font-size: 25px;
     line-height: 2;
     text-align: center;
 }
-
+body {
+    overflow-x: hidden;
+}
+.col-xl-5 {
+    position: initial !important;
+}
 li {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 2;
 }
-  
-  
+header {
+    flex-direction: column;
+}
+code {
+    height: 300px;
+}
 html {
     background-color: #FFF;
 }
   
-body {
-
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
+aside {
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); 
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
 }
-  
+a:link {
+    text-decoration: none;
+    color: rgb(103, 9, 146) !important;
+}
+a:link:hover {
+    color: #4c168a;
+    border-bottom: 2px solid #f8f8f8;
+}
+#navbarNav {
+    justify-content: center;
+}
+footer {
+    padding-left: 15px;
+}
 h1 {
-    margin: 0;
-    padding: 30px;
-    color: #00539F;
+    color: #030d16;
     font-size: 30px;
     text-align: center;
 }
-  
+h3, h4 {
+    text-decoration: underline;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #d9a7c7;
+background: -webkit-linear-gradient(to right, #fcf3a1, #d9a7c7);
+background: linear-gradient(to right, #f8f19f, #d9a7c7);
+
+}
 img {
     display: flex;
     margin: 0 auto;
     border-radius: 90px; 
-    border: 1px solid #000099; 
+    border: solid 2px white;
+}
+a > img {
+width: 100%;
 }
 aside {
     left: 20px;
 }
+p {
+    font-size: 20px;
+    align-self: center;
+}
 a, aside {
     font-size: 20px;
+}
+ul {
+    list-style: none;
+}
+section > ul {
+    padding-left: 0px;
+}
+.skills {
+    background: #C6FFDD;  
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+}
+footer {
+    background: #FFEFBA;  
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+background: linear-gradient(to right, #f3e98f, #FFEFBA);
+
+}
+
+summary::marker {
+    content: '';
 }
